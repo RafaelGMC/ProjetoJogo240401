@@ -1,13 +1,8 @@
-window_set_size(1280,720)
-
-
 trosso = 0
 pocao = 0
 spd = 1.1
 hspd = 0
 vspd = 0
-
-
 
 // Declarando as matrizes dos Sprites
 sprites[0][0] = spr_player_parado_down
