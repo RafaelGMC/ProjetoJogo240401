@@ -1,20 +1,108 @@
+
+// iniciando primeiro estado
+estado_idle = new estado();
+
+// iniciando o estado de walk
+estado_walk = new estado();
+
+#region estado_idle
+// meu estado idle presida de um inicia
+estado_idle.inicia = function()
+{
+	//definindo a sprite atual com base na direção que tô olhando
+	var _sprite = define_sprite(dir,spr_player_parado_right, spr_player_parado_down, spr_player_parado_up);
+	
+	//ajustando sprite 
+	sprite_index = _sprite;
+	
+	//garatindo que começe do primeiro sprite
+	image_index = 0;
+}
+
+estado_idle.roda = function()
+{
+	 //achando a condição para eu sair desse estado
+	
+	 
+	 //se eu estiver em movimento, então eu vou para o estado de walk
+	 if (up xor down or left xor right)
+	 {
+		troca_estado(estado_walk);	
+	 }
+}
+#endregion 
+
+#region estado_walk
+estado_walk.inicia = function()
+{
+	dir		= (point_direction(0, 0, right - left, down - up) div 90);
+
+	//definindo a sprite
+	
+
+	// configurando a sprite
+	sprite_index = define_sprite(dir, spr_player_movendo_right, spr_player_movendo_down, spr_player_movendo_up);
+	
+	// começando do frame 0
+	image_index = 0;
+}
+estado_walk.roda = function()
+{
+	dir		= (point_direction(0,0,velh,velv) div 90);
+	//condiçao para sair do estado
+	//se eu estou parado eu vou para o estado de idle
+	
+	//Ajustando o lado que ele olha
+	if (velh != 0)
+	{
+		image_xscale = sign(velh);
+	}
+	
+	//definindo a sprite
+	sprite_index = define_sprite(dir, spr_player_movendo_right, spr_player_movendo_down, spr_player_movendo_up);
+	//movendo
+	//fazendo velo vertical
+	velv	 = (down - up) * vel;
+	//fazendo velo horizontal
+	velh	 = (right - left) * vel;
+	
+	if (velh == 0 && velv == 0)
+	{
+		troca_estado(estado_idle);
+	}
+}
+
+#endregion
+
+//iniciar variaveis
+#region iniciando_variaveis
+// controles estão sendo iniciados sem valor
+up = noone;
+down = noone;
+left = noone;
+right = noone;
+
+// variaveis de movimento
+// iniciando parado
+
+velh = 0;
+velv = 0;
+
+//velocidade do jogador
+vel = 1;
+
+//contrando a direcao que o player está olhando
+dir = 0;
+
+#endregion
+
+// iniciando minha maquina de estados
+inicia_estado(estado_idle);
+
+//itens que pode ser coletados
 trosso = 0
 pocao = 0
-spd = 1.1
-hspd = 0
-vspd = 0
 
-// Declarando as matrizes dos Sprites
-sprites[0][0] = spr_player_parado_down
-sprites[0][1] = spr_player_parado_up
-sprites[0][2] = spr_player_parado_right
-sprites[0][3] = spr_player_parado_left
 
-sprites[1][0] = spr_player_movendo_down
-sprites[1][1] = spr_player_movendo_up
-sprites[1][2] = spr_player_movendo_right
-sprites[1][3] = spr_player_movendo_left
 
-movendo = 0
-lado = 0
 
