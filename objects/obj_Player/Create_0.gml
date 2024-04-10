@@ -100,8 +100,10 @@ dir = 0;
 inicia_estado(estado_idle);
 
 //itens que pode ser coletados
-trosso = 0
-pocao = 0
+trosso = 0;
+pocao = 0;
+passa_fase = 0;
+chave = 0;
 
 
 

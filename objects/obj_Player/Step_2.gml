@@ -1,5 +1,6 @@
 
-//move_and_collide(velh,velv, obj_invi)
+move_and_collide(velh,velv, obj_invi);
+
 /*
 if (place_meeting(x + velh, y, obj_invi))
 {
@@ -13,9 +14,6 @@ if (place_meeting(x + velh, y, obj_invi))
 		velh = 0;
 	}
 }
-
-
-
 if (place_meeting(x, y + velv, obj_invi))
 {
 	//colisão fertical
@@ -29,7 +27,7 @@ if (place_meeting(x, y + velv, obj_invi))
 	}		 
 }
 */
-
+/*
 //colisao horizontal
 var _col = instance_place(x + velh,y,obj_invi);
 
@@ -61,7 +59,7 @@ if (_col)
 	// zero a velocidade
 	velv = 0;
 }
-*/
+
 if (_col)
 {
 	// se eu estou indo para direita, eu grudo na esquerda da parede
@@ -78,13 +76,13 @@ if (_col)
 
 y += velv;
 
-
+*/
 if (pocao == 1) 
 {
 	vel = 3;
 }
 
-if (trosso == 4)
+if (trosso == 4 and passa_fase != 0 and chave = 1)
 {
 	room_goto_next();
 }
