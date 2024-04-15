@@ -3,9 +3,10 @@
   "%Name":"tl_mundo_consertado",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":0,
-    "SerialiseWidth":0,
-    "TileSerialiseData":[],
+    "SerialiseHeight":6,
+    "SerialiseWidth":6,
+    "TileCompressedData":[-27,0,3,79,0,79,-3,0,3,805306448,0,805306448,],
+    "TileDataFormat":1,
   },
   "name":"tl_mundo_consertado",
   "out_columns":12,

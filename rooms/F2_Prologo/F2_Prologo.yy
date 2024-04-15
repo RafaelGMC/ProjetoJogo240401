@@ -92,10 +92,10 @@
         {"$GMRInstance":"","%Name":"inst_6552FA21","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6552FA21","objectId":{"name":"obj_chave","path":"objects/obj_chave/obj_chave.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":240.0,"y":240.0,},
       ],"layers":[],"name":"bloco_invisivel","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRTileLayer":"","%Name":"tl_decoracao","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"tl_decoracao","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":17,"SerialiseWidth":30,"TileCompressedData":[
-          -64,0,2,805306425,1879048249,-18,0,2,805306425,1879048249,-115,0,5,1879048249,1073741881,0,1879048249,
-          1073741881,-26,0,5,1879048249,1073741881,0,1879048249,1073741881,-25,0,5,57,805306425,0,57,805306425,
-          -24,0,5,57,805306425,0,57,805306425,-127,0,1,805306425,-22,0,1,1879048249,-6,0,1,1073741881,-22,0,1,
-          57,-33,0,
+          -64,0,2,805306425,1879048249,-18,0,2,805306425,1879048249,-62,0,2,1879048249,805306425,-51,0,5,1879048249,
+          1073741881,0,1879048249,1073741881,-26,0,5,1879048249,1073741881,0,1879048249,1073741881,-25,0,5,57,
+          805306425,0,57,805306425,-24,0,5,57,805306425,0,57,805306425,-127,0,1,805306425,-22,0,1,1879048249,-6,
+          0,1,1073741881,-22,0,1,57,-33,0,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tl_tiles3","path":"tilesets/tl_tiles3/tl_tiles3.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"tl_parede","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"tl_parede","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":17,"SerialiseWidth":30,"TileCompressedData":[
           -64,1073741864,-2,0,-18,1073741864,-2,0,-4,1073741864,-4,1073741883,-2,0,-18,1073741883,-2,0,-4,1073741883,

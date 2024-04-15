@@ -10,8 +10,8 @@
   "name":"obj_teste",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Objetos/Player.yy",
+    "name":"Objetos",
+    "path":"folders/Objetos.yy",
   },
   "parentObjectId":null,
   "persistent":false,

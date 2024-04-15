@@ -6,8 +6,8 @@
   "name":"obj_invi_fase",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"Objetos invis",
+    "path":"folders/Objetos/Objetos invis.yy",
   },
   "parentObjectId":null,
   "persistent":false,
