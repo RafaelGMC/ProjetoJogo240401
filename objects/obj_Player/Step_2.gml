@@ -79,7 +79,7 @@ y += velv;
 */
 if (pocao == 1) 
 {
-	vel = 3;
+	vel = 2.5;
 }
 
 if (trosso == 4 and passa_fase != 0 and chave = 1)
