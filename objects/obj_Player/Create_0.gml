@@ -89,7 +89,7 @@ velh = 0;
 velv = 0;
 
 //velocidade do jogador
-vel = 1;
+vel = 1.45;
 
 //contrando a direcao que o player está olhando
 dir = 0;
