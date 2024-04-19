@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_pocao",
-    "path":"sprites/spr_pocao/spr_pocao.yy",
+    "name":"spr_pocao_vermelha",
+    "path":"sprites/spr_pocao_vermelha/spr_pocao_vermelha.yy",
   },
   "spriteMaskId":null,
   "visible":true,
