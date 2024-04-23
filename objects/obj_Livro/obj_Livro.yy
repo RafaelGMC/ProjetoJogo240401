@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Livro",
+  "%Name":"obj_livro",
   "eventList":[],
   "managed":true,
-  "name":"obj_Livro",
+  "name":"obj_livro",
   "overriddenProperties":[],
   "parent":{
     "name":"Itens",

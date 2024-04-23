@@ -28,6 +28,7 @@ if (place_meeting(x, y + velv, obj_invi))
 }
 */
 /*
+
 //colisao horizontal
 var _col = instance_place(x + velh,y,obj_invi);
 
@@ -52,14 +53,13 @@ x += velh;
 //colisao vertical
 _col = instance_place(x, y + velv,obj_invi);
 
-/*
+
 if (_col) 
 {
 	y = velv > 0? _col.bbox_top + (y - bbox_bottom) : _col.bbox_bottom + (y - bbox_top);
 	// zero a velocidade
 	velv = 0;
 }
-
 if (_col)
 {
 	// se eu estou indo para direita, eu grudo na esquerda da parede
@@ -74,9 +74,10 @@ if (_col)
 	velv = 0;	
 }
 
-y += velv;
 
+y += velv;
 */
+
 if (pocao == 1) 
 {
 	vel = 2.5;

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Flor",
+  "%Name":"obj_flor",
   "eventList":[],
   "managed":true,
-  "name":"obj_Flor",
+  "name":"obj_flor",
   "overriddenProperties":[],
   "parent":{
     "name":"Itens",

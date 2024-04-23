@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Serra",
+  "%Name":"obj_serra",
   "eventList":[],
   "managed":true,
-  "name":"obj_Serra",
+  "name":"obj_serra",
   "overriddenProperties":[],
   "parent":{
     "name":"Itens",

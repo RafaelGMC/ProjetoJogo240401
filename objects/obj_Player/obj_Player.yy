@@ -42,12 +42,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_player_parado_down",
-    "path":"sprites/spr_player_parado_down/spr_player_parado_down.yy",
+    "name":"spr_player_parado_down_2",
+    "path":"sprites/spr_player_parado_down_2/spr_player_parado_down_2.yy",
   },
   "spriteMaskId":{
-    "name":"spr_player_parado_down",
-    "path":"sprites/spr_player_parado_down/spr_player_parado_down.yy",
+    "name":"spr_player_parado_down_2",
+    "path":"sprites/spr_player_parado_down_2/spr_player_parado_down_2.yy",
   },
   "visible":true,
 }
