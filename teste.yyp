@@ -149,13 +149,13 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"F2_Prologo","path":"rooms/F2_Prologo/F2_Prologo.yy",},},
-    {"roomId":{"name":"F1_Prologo","path":"rooms/F1_Prologo/F1_Prologo.yy",},},
-    {"roomId":{"name":"F5_Salas","path":"rooms/F5_Salas/F5_Salas.yy",},},
-    {"roomId":{"name":"F4_Salas","path":"rooms/F4_Salas/F4_Salas.yy",},},
-    {"roomId":{"name":"F3_Salas","path":"rooms/F3_Salas/F3_Salas.yy",},},
     {"roomId":{"name":"INICIO","path":"rooms/INICIO/INICIO.yy",},},
     {"roomId":{"name":"Instrucoes","path":"rooms/Instrucoes/Instrucoes.yy",},},
+    {"roomId":{"name":"F1_Prologo","path":"rooms/F1_Prologo/F1_Prologo.yy",},},
+    {"roomId":{"name":"F2_Prologo","path":"rooms/F2_Prologo/F2_Prologo.yy",},},
+    {"roomId":{"name":"F3_Salas","path":"rooms/F3_Salas/F3_Salas.yy",},},
+    {"roomId":{"name":"F4_Salas","path":"rooms/F4_Salas/F4_Salas.yy",},},
+    {"roomId":{"name":"F5_Salas","path":"rooms/F5_Salas/F5_Salas.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
