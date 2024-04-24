@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Serra",
-    "path":"sprites/spr_Serra/spr_Serra.yy",
+    "name":"spr_serra",
+    "path":"sprites/spr_serra/spr_serra.yy",
   },
   "spriteMaskId":null,
   "visible":true,

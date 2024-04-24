@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_Flor",
-    "path":"sprites/spr_Flor/spr_Flor.yy",
+    "name":"spr_flor",
+    "path":"sprites/spr_flor/spr_flor.yy",
   },
   "spriteMaskId":null,
   "visible":true,
