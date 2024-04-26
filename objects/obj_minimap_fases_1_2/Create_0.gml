@@ -13,8 +13,8 @@ linhas = room_height div tamanho;
 //criando meu array para guardar todas informações do tileset
 
 level = 0; 
-escala = 0.1; 
-diam = 0.1
+escala = .1; 
+
 
 // identificando meu tileset
 var _layer = layer_get_id("tl_paredes");
