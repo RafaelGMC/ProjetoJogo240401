@@ -3,3 +3,6 @@
 global.cont_itens = 0;
 global.cont_chaves = 0;
 global.cont_vidas = 100;
+global.cont_chances = 3;
+
+

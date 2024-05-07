@@ -3,7 +3,7 @@ var_resul = coli mod 2
 repeat (abs(hspd))
 {
 	//colisão horizotal
-	if (!place_meeting(x + sign(hspd), y, obj_invi_cav))
+	if (!place_meeting(x + sign(hspd), y, obj_invi))
 	{
 		x += sign(hspd)	
 

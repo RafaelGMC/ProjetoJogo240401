@@ -1,6 +1,6 @@
 resolution_width = 1280;
 resolution_height = 720;
-resolution_scale = 6;
+resolution_scale = 4;
 
 global.view_width = resolution_width / resolution_scale;
 global.view_height = resolution_height / resolution_scale;
@@ -12,6 +12,5 @@ window_set_size(global.view_width * resolution_scale,global.view_height * resolu
 
 surface_resize(application_surface,global.view_width * resolution_scale,global.view_height * resolution_scale);
 
-display_set_gui_size(global.view_width,global.view_height);
 
 alarm[0] = 1;
