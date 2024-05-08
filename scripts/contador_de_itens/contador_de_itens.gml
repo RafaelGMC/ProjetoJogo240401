@@ -6,3 +6,5 @@ global.cont_vidas = 100;
 global.cont_chances = 3;
 
 
+
+

@@ -101,10 +101,16 @@ inicia_estado(estado_idle);
 
 //itens que pode ser coletados
 trosso = 0;
-pocao = 0;
-passa_fase = 0;
 chave = 0;
+//objeto de colisão para passar de fase
+passa_fase = 0;
 
+// Variável para controlar se o jogador está sob o efeito da poção
+var _sob_efeito_pocao_amarela = false;
 
+// Variável para armazenar a cor original do jogador
+var _cor_original;
+
+var _contador = 0;
 
 
