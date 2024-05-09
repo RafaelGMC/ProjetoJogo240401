@@ -1,6 +1,7 @@
-
+//sistema colisão
 move_and_collide(velh,velv, obj_invi);
 
+//requisitos para passar de fase
 if (trosso == 4 and passa_fase != 0 and chave = 1)
 {
 	room_goto_next();

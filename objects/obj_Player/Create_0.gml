@@ -106,11 +106,11 @@ chave = 0;
 passa_fase = 0;
 
 // Variável para controlar se o jogador está sob o efeito da poção
-var _sob_efeito_pocao_amarela = false;
+_sob_efeito_pocao_amarela = false;
 
 // Variável para armazenar a cor original do jogador
-var _cor_original;
+_cor_original = -1;
 
-var _contador = 0;
+
 
 
