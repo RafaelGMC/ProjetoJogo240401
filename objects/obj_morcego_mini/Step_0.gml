@@ -1,4 +1,4 @@
-
+/*
 //colisão horizontal e vertical
 
 
@@ -16,3 +16,4 @@ repeat(abs(hspd))
 	}
 }
 
+*/

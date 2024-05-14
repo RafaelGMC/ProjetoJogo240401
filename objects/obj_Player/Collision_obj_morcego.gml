@@ -3,13 +3,15 @@ if (alarm[0] < 0)
 {
         // Armazenar a cor original do jogador
 		_cor_original = image_blend;
-		
+
         // Definir a cor para vermelho para mostrar o jogador
         image_blend = $FF0000FF & $ffffff;
-        image_alpha = ($FF0000FF >> 24) / $ff;
-        
+       image_alpha = ($FF0000FF >> 24) / $ff;
+
         // Configurar alarme 0 para 30 steps a 60fps (0.5 segundo)
         alarm[0] = 30;
+		obj_screenshake.valor += 10;
+		obj_screenshake.ang += 2;		
 }
 
 if (global.cont_vidas <= 1)
