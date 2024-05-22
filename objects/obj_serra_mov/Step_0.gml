@@ -1,22 +1,14 @@
-x+=hsp
-y+=vsp
 
-if x<0
+repeat (abs(hspd))
 {
-hsp=-hsp
-}
-
-if x>room_width
-{
-hsp=-hsp
-}
-
-if y<0 
-{
-vsp=-vsp
-}
-
-if y>room_height
-{
-vsp=-vsp
+	//colisão horizotal
+	if (!place_meeting(x + sign(hspd), y, obj_invi))
+	{
+		x += sign(hspd)	
+	} 
+	else // está colidindo
+	{			
+		hspd = -hspd 		
+	}	
+		
 }

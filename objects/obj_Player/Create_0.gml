@@ -1,4 +1,3 @@
-
 // iniciando primeiro estado
 estado_idle = new estado();
 
@@ -102,11 +101,13 @@ inicia_estado(estado_idle);
 //itens que pode ser coletados
 trosso = 0;
 chave = 0;
+
 //objeto de colisão para passar de fase
 passa_fase = 0;
 
 // Variável para controlar se o jogador está sob o efeito da poção
 _sob_efeito_pocao_amarela = false;
+_sob_efeito_pocao_verde = false;
 
 // Variável para armazenar a cor original do jogador
 _cor_original = -1;

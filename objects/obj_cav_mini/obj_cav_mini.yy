@@ -10,8 +10,8 @@
     "path":"folders/Objetos/Inimigos.yy",
   },
   "parentObjectId":{
-    "name":"obj_morcego",
-    "path":"objects/obj_morcego/obj_morcego.yy",
+    "name":"obj_parent_enemy",
+    "path":"objects/obj_parent_enemy/obj_parent_enemy.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

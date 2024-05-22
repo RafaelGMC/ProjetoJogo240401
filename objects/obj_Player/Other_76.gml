@@ -13,7 +13,7 @@ if (_tipo == "sprite event")
 		part_system_position(_part, x, y);
 		break;
 		case "puf2":
-		//criando particulas
+		//criando particulas quando estou correndo para baixo
 		var _part = part_system_create(ps_puf);
 		part_system_position(_part, x, y-20);
 		break;	

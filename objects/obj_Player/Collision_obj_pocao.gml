@@ -10,4 +10,4 @@ if (place_meeting(x, y, obj_pocao))
 	// Destruir a poção
 	instance_destroy(other);
 }
-global.cont_vidas = 100;
+global.cont_saude = 100;
