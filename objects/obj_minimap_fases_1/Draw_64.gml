@@ -19,9 +19,9 @@ if (visivel)
 				/* deixar "diferente" a cor
 				var _cor = make_color_rgb(111,107,255);
 				*/					
-				draw_set_color(c_red);			
+				draw_set_color(c_white);			
 				draw_rectangle(_x + j * _tam, _y + i * _tam, _x + (j + 1) * _tam, _y + (i + 1) * _tam, 0);			
-				draw_set_color(c_white);
+				draw_set_color(c_red);
 			}
 		}
 	}	

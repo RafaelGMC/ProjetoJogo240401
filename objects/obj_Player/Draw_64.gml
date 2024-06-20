@@ -10,17 +10,17 @@ if (alarm[1] > 0)
 	{
 		//desenhando o mostrador de turbo
 		draw_set_color(c_yellow)
-		draw_text(488, 20, "Turbo");
+		draw_text(1000, 20, "Turbo");
 	    draw_set_color(c_green); // Turbo está ativado, portanto, cor verde
-	 	draw_text(595, 20, "ON");
+	 	draw_text(1100, 20, "ON");
 	}
 	if (_sob_efeito_pocao_verde)
 	{
 		//desenhando o mostrador de INVULNERABILIDADE
 		draw_set_color(c_yellow)
-		draw_text(488, 20, "Invulnerabilidade");
+		draw_text(930, 20, "Invulnerabilidade");
 	    draw_set_color(c_green); // Turbo está ativado, portanto, cor verde
-	 	draw_text(750, 20, "ON");
+	 	draw_text(1192, 20, "ON");
 	}	
 	
     // Desenha o tempo restante apenas quando o turbo está ativado
@@ -31,7 +31,7 @@ if (alarm[1] > 0)
         draw_set_color(c_white); // Mantenha a cor branca para o resto do tempo			
     }	
 	
-    draw_text(488, 52, "Tempo restante: " + string(alarm[1] div room_speed));
+    draw_text(940, 52, "Tempo restante: " + string(alarm[1] div room_speed));
 	
 } 
 //resetadno a fonte e a sua cor

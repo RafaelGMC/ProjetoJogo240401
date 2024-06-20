@@ -29,8 +29,8 @@ if (global.cont_saude <= 0 && global.cont_vidas > 0)
     
     // Restaurar saúde, itens e chaves
     global.cont_saude = 100;
-    global.cont_itens = 0;
-    global.cont_chaves = 0;
+    global.cont_itens = false;
+    global.cont_chaves = false;
 }     
 else
 {

@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"pth_gosma",
+  "closed":false,
+  "kind":0,
+  "name":"pth_gosma",
+  "parent":{
+    "name":"Path",
+    "path":"folders/Path.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":824.5702,"y":162.65482,},
+    {"speed":100.0,"x":827.72784,"y":747.3861,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

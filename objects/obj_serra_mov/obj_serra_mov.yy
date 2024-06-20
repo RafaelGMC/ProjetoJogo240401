@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_serra",
-    "path":"sprites/spr_serra/spr_serra.yy",
+    "name":"spr_serra_nova",
+    "path":"sprites/spr_serra_nova/spr_serra_nova.yy",
   },
   "spriteMaskId":null,
   "visible":true,

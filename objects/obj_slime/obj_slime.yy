@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_slime_parada",
-    "path":"sprites/spr_slime_parada/spr_slime_parada.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

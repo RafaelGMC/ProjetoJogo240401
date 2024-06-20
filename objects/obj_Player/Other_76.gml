@@ -1,3 +1,4 @@
+/*
 // identificando a mensagem
 var _tipo = event_data[? "event_type"];
 
@@ -19,3 +20,4 @@ if (_tipo == "sprite event")
 		break;	
 	}
 }
+*/

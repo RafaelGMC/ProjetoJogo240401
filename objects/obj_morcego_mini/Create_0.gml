@@ -1,3 +1,4 @@
+// No evento Create do obj_monstro
 
 
 //hspd=random_range(1,2)

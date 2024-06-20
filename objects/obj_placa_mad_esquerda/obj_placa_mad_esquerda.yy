@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_placa_mad_direita",
-    "path":"sprites/spr_placa_mad_direita/spr_placa_mad_direita.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_saida_emer_direita",
-    "path":"sprites/spr_saida_emer_direita/spr_saida_emer_direita.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

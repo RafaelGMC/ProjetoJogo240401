@@ -3,6 +3,7 @@
 
 //sabendo o tamanho do meu tileset
 
+
 tamanho = 16;
 
 
@@ -13,11 +14,11 @@ linhas = room_height div tamanho;
 //criando meu array para guardar todas informações do tileset
 
 level = 0; 
-escala = .065; 
+escala = .150; 
 
 
 // identificando meu tileset
-var _layer = layer_get_id("tl_paredes");
+var _layer = layer_get_id("tl_mapa");
 var _mapa = layer_tilemap_get_id(_layer)
 
 //rodando minha room encontrando as tiles
@@ -29,3 +30,4 @@ for (var i = 0; i < linhas; i++)
 		level[j][i] = tilemap_get(_mapa, j, i);		
 	}
 }
+

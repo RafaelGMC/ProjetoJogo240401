@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_placa_mad_esquerda",
-    "path":"sprites/spr_placa_mad_esquerda/spr_placa_mad_esquerda.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

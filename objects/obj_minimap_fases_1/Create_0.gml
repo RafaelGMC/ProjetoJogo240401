@@ -17,7 +17,7 @@ level = 0;
 escala = 0.3; 
 
 // identificando meu tileset
-var _layer = layer_get_id("tl_paredes");
+var _layer = layer_get_id("tl_mapa");
 var _mapa = layer_tilemap_get_id(_layer)
 
 //rodando minha room encontrando as tiles
