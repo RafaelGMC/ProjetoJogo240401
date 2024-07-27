@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Escola",
-    "path":"folders/Objetos/Inimigos/Escola.yy",
+    "path":"folders/Objetos/Escola.yy",
   },
   "parentObjectId":null,
   "persistent":false,

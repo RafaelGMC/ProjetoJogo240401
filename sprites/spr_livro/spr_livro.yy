@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_livro",
   "bboxMode":1,
-  "bbox_bottom":13,
+  "bbox_bottom":15,
   "bbox_left":0,
-  "bbox_right":13,
+  "bbox_right":15,
   "bbox_top":0,
   "collisionKind":4,
   "collisionTolerance":0,
@@ -31,7 +31,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":14,
+  "height":16,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"8b8e0e5f-171a-45f9-a6b8-d63ed3a4a0a6","blendMode":0,"displayName":"default","isLocked":false,"name":"8b8e0e5f-171a-45f9-a6b8-d63ed3a4a0a6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -146,5 +146,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":14,
+  "width":16,
 }

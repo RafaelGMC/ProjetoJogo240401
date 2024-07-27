@@ -16,11 +16,8 @@ global.spr_parado_up = spr_player_parado_up_2;
 global.spr_movendo_right = spr_player_movendo_right_2;
 global.spr_movendo_down = spr_player_movendo_down_2;
 global.spr_movendo_up = spr_player_movendo_up_2;
-global.mask_normal = spr_player_parado_down_2;
-global.mask_transform = spr_player_transform_down;
+
 global.transformado = false;
-global.vel_normal = 1.00; // Velocidade no estado normal
-global.vel_transform = 0.75; // Velocidade no estado transformado
 
 // funcões para controlar a maquina de estados
 //iniciando o estado

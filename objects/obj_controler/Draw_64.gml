@@ -20,7 +20,7 @@ draw_set_font(fnt_brush);
 draw_text(300, 50, "x" + string(global.item4));
 
 // Desenhando o contador de chaves coletadas
-draw_sprite_ext(spr_chave, 0, 380, 42, 4, 4, 0, -1, 1);
+draw_sprite_ext(spr_chave, 0, 340, 20, 4, 4, 0, -1, 1);
 draw_set_font(fnt_brush);
 draw_text(380, 50, "x" + string(global.chave));
 
